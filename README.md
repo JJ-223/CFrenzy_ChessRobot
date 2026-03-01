@@ -4,7 +4,7 @@
 sequenceDiagram
     autonumber
     actor Host as Host / GUI (Arena)
-    participant Engine as Egine(Main loop)
+    participant Engine as Engine(Main loop)
     participant Parser as UCI Parser
     participant Position as Position (Board/FEN) 
     participant MoveGen as MoveGenerator (pseudoLegalMoves etc.)
